@@ -5,14 +5,17 @@ BODY
 	word-spacing: normal;
 	letter-spacing: normal;
 	text-transform: none;
-	font-family: Verdana, Myriad Web, Syntax, sans-serif;
-	font-size-adjust: .48;
 	background: #FFFFFD;
 	margin-top: 5%;
-	margin-right: 5%;
+	margin-right: 10%;
 	margin-bottom: 5%;
-	margin-left: 5%;
+	margin-left: 10%;
 	background-color: #FFFFFD;
+    color: #353432;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 160%;
 }
 
 P { text-align: left; }
