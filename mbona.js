@@ -25,10 +25,16 @@ function mbona_header(s)
     mbona_menu(s);
 }
 
+function mbona_credits()
+{
+    document.write('<hr> <Center> maintained by <a href=https://hughmurrell.github.io target=blank> hugh.murrell@gmail.com </a> </Center>');
+    document.write('<Center> last updated: 2020:10:25 </Center>');
+}
+
 function mbona_footer(s)
 {
     mbona_menu(s);
-    document.write('<hr> <Center> last updated: 2020:10:25 </Center>');
+    mbona_credits();
 }
 
 function gallery_image(id,desc)
