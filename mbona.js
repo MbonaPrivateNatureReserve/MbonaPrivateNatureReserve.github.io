@@ -7,15 +7,15 @@ function mbona_logo(s)
 function mbona_menu(s)
 {
     document.write('<Center>[');
-    document.write('<a href="' + s + 'index.html">home</a> |');
-    document.write('<a href="' + s + 'about/index.html">about</a> |');
-    document.write('<a href="' + s + 'operations/index.html">how we operate</a> |');
-    document.write('<a href="' + s + 'gallery/index.html">gallery</a> |');
-    document.write('<a href="' + s + 'sales/index.html">for sale</a> |');
-    document.write('<a href="' + s + 'forms/index.html">forms</a> |');
-    document.write('<a href="' + s + 'downloads/index.html">downloads</a> |');
-    document.write('<a href="' + s + 'links/index.html">links</a> |');
-    document.write('<a href="' + s + 'contact/index.html">contact</a>');
+    document.write('<a href="' + s + 'index.html"> home </a> |');
+    document.write('<a href="' + s + 'about/index.html"> about </a> |');
+    document.write('<a href="' + s + 'operations/index.html"> how we operate </a> |');
+    document.write('<a href="' + s + 'gallery/index.html"> gallery </a> |');
+    document.write('<a href="' + s + 'sales/index.html"> for sale </a> |');
+    document.write('<a href="' + s + 'forms/index.html"> forms </a> |');
+    document.write('<a href="' + s + 'downloads/index.html"> downloads </a> |');
+    document.write('<a href="' + s + 'links/index.html"> links </a> |');
+    document.write('<a href="' + s + 'contact/index.html"> contact </a>');
     document.write(']</Center>');
 }
 
@@ -29,5 +29,17 @@ function mbona_footer(s)
 {
     mbona_menu(s);
     document.write('<hr> <Center> last updated: 2020:10:25 </Center>');
+}
+
+function gallery_image(id,desc)
+{
+    document.write('<div class="responsive">');
+    document.write('<div class="gallery">');
+    document.write('<a target="_blank" href="images/' + id + '.jpg">');
+    document.write('<img src="images/' + id + '-300x200.jpg" alt="' + id + '" width="600" height="400">');
+    document.write('</a>');
+    document.write('<div class="desc">' + desc + '</div>');
+    document.write('</div>');
+    document.write('</div>');
 }
 
