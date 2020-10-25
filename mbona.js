@@ -49,3 +49,28 @@ function gallery_image(id,desc)
     document.write('</div>');
 }
 
+function start_advert(share, portion)
+{
+    document.write('<div class="row">');
+    document.write('<div class="column" >');
+      document.write('<a target="_blank" href="images/' + share + '-top.jpg">');
+      document.write('<img style="float:center" src="images/' + share + '-top-300x300.jpg" /></a> <br><br>');
+      document.write('<a target="_blank" href="images/' + share + '-bottom.jpg">');
+      document.write('<img style="float:center" src="images/' + share + '-bottom-300x300.jpg" /></a>');
+    document.write('</div>');
+    document.write('<div class="column" >');
+      document.write('<h2> ' + share + ' (' + portion + ') </h2>');
+}
+
+function end_advert(name, phone, email)
+{
+        document.write('<br><br>');
+        document.write('<strong>For more info please contact</strong><br/>');
+        document.write('<span>Name :</span> ' + name + '<br/>');
+        document.write('<span>Phone :</span> ' + phone + ' <br/>');
+        document.write('<span>Email : </span> <a href="mailto:' + email + '">kevin@focuspm.co.za</a>');
+        document.write('</p>');
+      document.write('</div>');
+    document.write('</div>');
+}
+
