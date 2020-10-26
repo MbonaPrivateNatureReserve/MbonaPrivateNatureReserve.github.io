@@ -68,7 +68,7 @@ function end_advert(name, phone, email)
         document.write('<strong>For more info please contact</strong><br/>');
         document.write('<span>Name :</span> ' + name + '<br/>');
         document.write('<span>Phone :</span> ' + phone + ' <br/>');
-        document.write('<span>Email : </span> <a href="mailto:' + email + '">kevin@focuspm.co.za</a>');
+        document.write('<span>Email : </span> <a href="mailto:' + email + '">' + email + '</a>');
         document.write('</p>');
       document.write('</div>');
     document.write('</div>');
