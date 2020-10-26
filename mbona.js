@@ -15,6 +15,7 @@ function mbona_menu(s)
     document.write('<a href="' + s + 'sales/index.html"> for sale </a> |');
     document.write('<a href="' + s + 'forms/index.html"> forms </a> |');
     document.write('<a href="' + s + 'downloads/index.html"> downloads </a> |');
+    document.write('<a href="' + s + 'donations/index.html"> donations </a> |');
     document.write('<a href="' + s + 'links/index.html"> links </a> |');
     document.write('<a href="' + s + 'contact/index.html"> contact </a>');
     document.write(']</Center>');
