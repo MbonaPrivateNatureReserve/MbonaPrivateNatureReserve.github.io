@@ -11,6 +11,7 @@ function mbona_menu(s)
     document.write('<a href="' + s + 'about/index.html"> about </a> |');
     document.write('<a href="' + s + 'operations/index.html"> how we operate </a> |');
     document.write('<a href="' + s + 'gallery/index.html"> gallery </a> |');
+    document.write('<a href="' + s + 'visitors/index.html"> visitors </a> |');
     document.write('<a href="' + s + 'sales/index.html"> for sale </a> |');
     document.write('<a href="' + s + 'forms/index.html"> forms </a> |');
     document.write('<a href="' + s + 'downloads/index.html"> downloads </a> |');
