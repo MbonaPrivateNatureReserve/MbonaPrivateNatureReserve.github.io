@@ -16,7 +16,7 @@ function mbona_menu(s)
     document.write('<a href="' + s + 'forms/index.html"> forms </a> |');
     document.write('<a href="' + s + 'downloads/index.html"> downloads </a> |');
     document.write('<a href="' + s + 'donations/index.html"> donations </a> |');
-    document.write('<a href="' + s + 'links/index.html"> links </a> |');
+    document.write('<a href="' + s + 'friends/index.html"> friends </a> |');
     document.write('<a href="' + s + 'contact/index.html"> contact </a>');
     document.write(']</Center>');
 }
@@ -30,7 +30,7 @@ function mbona_header(s)
 function mbona_credits()
 {
     document.write('<hr> <Center> maintained by <a href=https://hughmurrell.github.io target=blank> hugh.murrell@gmail.com </a> </Center>');
-    document.write('<Center> last updated: 2020:10:25 </Center>');
+    document.write('<Center> last updated: 2020:10:27 </Center>');
 }
 
 function mbona_footer(s)

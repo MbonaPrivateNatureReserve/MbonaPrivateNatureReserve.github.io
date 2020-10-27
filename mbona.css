@@ -99,8 +99,7 @@ H2
 
 H3
 {
-	text-align: left;
-	color: #000066;
+	text-align: center;
 	font-size: large;
 	font-weight: normal;
 	background-color: transparent;
@@ -238,3 +237,21 @@ div.desc {
   display: table;
   clear: both;
 }
+
+/* to center but left align lists */
+.cla{text-align:center}
+
+.cla dl{
+    display:inline-block;
+    text-align:left;
+}
+* html .cla dl{display:inline}/* ie6 inline-block fix */
+*+html .cla dl{display:inline}/* ie7 inline-block fix */
+
+.cla ul{
+    display:inline-block;
+    text-align:left;
+}
+* html .cla ul{display:inline}/* ie6 inline-block fix */
+*+html .cla ul{display:inline}/* ie7 inline-block fix */
+
