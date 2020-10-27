@@ -29,8 +29,11 @@ function mbona_header(s)
 
 function mbona_credits()
 {
-    document.write('<hr> <Center> maintained by <a href=https://hughmurrell.github.io target=blank> hugh.murrell@gmail.com </a> </Center>');
-    document.write('<Center> last updated: 2020:10:27 </Center>');
+    document.write('<small>');
+    document.write('<hr> <Center> maintained by <a href="https://hughmurrell.github.io" target=_blank> Hugh Murrell </a> and hosted for free by <a href="https://github.io" target=_blank> GitHub pages </a> </Center>');
+    document.write('<Center> suggestions to: <a href="mailto:hugh.murrell@gmail.com"> hugh.murrell@gmail.com </a> </Center>');
+    document.write('<Center> last updated: 2020:10:27 </Center> <hr>');
+    document.write('</small>');
 }
 
 function mbona_footer(s)
@@ -47,6 +50,18 @@ function gallery_image(id,desc)
     document.write('<img src="images/' + id + '-300x200.jpg" alt="' + id + '" width="600" height="400">');
     document.write('</a>');
     document.write('<div class="desc">' + desc + '</div>');
+    document.write('</div>');
+    document.write('</div>');
+}
+
+function gallery_viewer(id)
+{
+    document.write('<div class="responsive">');
+    document.write('<div class="gallery">');
+    document.write('<a target="_blank" href="'+ id + '/index.html">');
+    document.write('<img src="images/' + id + '-300x200.jpg" alt="' + id + '" width="600" height="400">');
+    document.write('</a>');
+    document.write('<div class="desc">' + id + '</div>');
     document.write('</div>');
     document.write('</div>');
 }
