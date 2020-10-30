@@ -91,3 +91,10 @@ function end_advert(name, phone, email)
     document.write('</div>');
 }
 
+function gallery_instructions(title)
+{
+    document.write('<h1>' + title + '</h1>')
+    document.write('<h3>click on thumbnail to open original in new tab <br>')
+    document.write('close this tab when finished viewing</h3>')
+}
+
