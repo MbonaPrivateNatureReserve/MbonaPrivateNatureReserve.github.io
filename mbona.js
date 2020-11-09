@@ -32,7 +32,7 @@ function mbona_credits()
     document.write('<small>');
     document.write('<hr> <Center> maintained by <a href="https://hughmurrell.github.io" target=_blank> Hugh Murrell </a> and hosted for free by <a href="https://github.io" target=_blank> GitHub pages </a> </Center>');
     document.write('<Center> additions/deletions to: <a href="mailto:glenda.mbona@iuncapped.co.za"> glenda.mbona@iuncapped.co.za </a> </Center>');
-    document.write('<Center> website last updated: 2020:11:09 </Center> <hr>');
+    document.write('<Center> website last updated: 2020:11:08 </Center> <hr>');
     document.write('</small>');
 }
 
