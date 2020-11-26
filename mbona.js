@@ -55,6 +55,18 @@ function gallery_image(id,desc)
     document.write('</div>');
 }
 
+function gallery_video(id,desc)
+{
+    document.write('<div class="responsive">');
+    document.write('<div class="gallery">');
+    document.write('<a target="_blank" href="videos/' + id + '.mp4">');
+    document.write('<img src="videos/' + id + '-300x200.png" alt="' + id + '" width="600" height="400">');
+    document.write('</a>');
+    document.write('<div class="desc">' + desc + '</div>');
+    document.write('</div>');
+    document.write('</div>');
+}
+
 function gallery_viewer(id)
 {
     document.write('<div class="responsive">');
