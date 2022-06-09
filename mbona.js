@@ -9,13 +9,14 @@ function mbona_menu(s)
     document.write('<Center>[');
     document.write('<a href="' + s + 'index.html"> home </a> |');
     document.write('<a href="' + s + 'about/index.html"> about </a> |');
-    document.write('<a href="' + s + 'operations/index.html"> how we operate </a> |');
+    document.write('<a href="' + s + 'operations/index.html"> operations </a> |');
     document.write('<a href="' + s + 'gallery/index.html"> gallery </a> |');
     document.write('<a href="' + s + 'visitors/index.html"> visitors </a> |');
     document.write('<a href="' + s + 'sales/index.html"> for sale </a> |');
     document.write('<a href="' + s + 'forms/index.html"> forms </a> |');
-    document.write('<a href="' + s + 'downloads/index.html"> downloads </a> |');
-    document.write('<a href="' + s + 'donations/index.html"> donations </a> |');
+    document.write('<a href="' + s + 'downloads/index.html"> download </a> |');
+    document.write('<a href="' + s + 'book/index.html"> book </a> |');
+    document.write('<a href="' + s + 'donations/index.html"> donate </a> |');
     document.write('<a href="' + s + 'friends/index.html"> friends </a> |');
     document.write('<a href="' + s + 'contact/index.html"> contact </a>');
     document.write(']</Center>');
